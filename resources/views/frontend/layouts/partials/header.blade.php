@@ -266,17 +266,56 @@
         <a href="./contact.html" class="block text-gray-700 hover:text-orange-600 font-medium">Contact</a>
       </nav>
     </div>
-    <!-- Dark Mode Toggle Button -->
-  <button class="absolute top-5 right-5 w-10 h-5 md:w-12 md-h-6 rounded-2xl bg-white flex item-center transition duration-300 focus:outline-none shadow" onclick="toggleTheme()">
-    <div class="w-6 h-6 md-h-7 relative rounded-full transition duration-500 transform bg-yellow-500 -translate-x-2 p-1 text-white" id="switch-toggle">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute top-1 left-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a8.001 8.001 0 00-7.938 6.5A6.002 6.002 0 0112 18a6.002 6.002 0 017.938-7.146A8.001 8.001 0 0012 4.354zM12 20a8.001 8.001 0 007.938-6.5A6.002 6.002 0 0112 10a6.002 6.002 0 01-7.938 7.146A8.001 8.001 0 0012 20z"/>
 
-            </svg>
-    </div>
-
-  </button>
+ 
 
 </div>
  </header>
 
+<script>
+    document.addEventListener('alpine:init', () => {
+        Alpine.store('theme', {
+            darkMode: localStorage.getItem('theme') === 'dark',
+            toggleTheme() {
+                this.darkMode = !this.darkMode;
+                localStorage.setItem('theme', this.darkMode ? 'dark' : 'light');
+                document.documentElement.classList.toggle('dark', this.darkMode);
+            },
+            current() {
+                return this.darkMode ? 'dark' : 'light';
+            }
+        });
+
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+    });
+</script>
+
+<!-- Lucide Icon CDN -->
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<!-- Fixed Dark Mode Toggle Button (Top Right) -->
+<div class="fixed top-4 right-4 z-50" x-data>
+    <button
+        @click="$store.theme.toggleTheme()"
+        class="p-2 rounded-full bg-white dark:bg-gray-800 shadow hover:bg-yellow-100 dark:hover:bg-yellow-900 transition"
+        title="Toggle Theme"
+    >
+        <!-- Light mode icon -->
+        <i data-lucide="sun"
+           x-show="!$store.theme.darkMode"
+           class="w-5 h-5 text-yellow-500"></i>
+
+        <!-- Dark mode icon -->
+        <i data-lucide="moon"
+           x-show="$store.theme.darkMode"
+           class="w-5 h-5 text-yellow-500"></i>
+    </button>
+</div>
+
+
+<!-- Initialize Lucide Icons -->
+<script>
+    lucide.createIcons();
+</script>
