@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('backend.user.layouts.master')
 
 @section('content')
 <section class="container max-w-2xl mx-auto mt-10 bg-white rounded-xl shadow-md p-8">

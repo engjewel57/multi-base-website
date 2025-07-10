@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
 class User extends AuthBaseModel
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
-   
+   protected $redirectTo = '/user/dashboard';
 
     /**
      * The attributes that are mass assignable.
