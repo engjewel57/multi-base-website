@@ -6,19 +6,19 @@
                 class="max-w-[1140px] mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
 
                 <!-- Main Banner -->
-                <div class="md:col-span-2 relative">
+                <div class="relative md:col-span-2">
                     <img src="{{asset('assets/eimage/crypgo (4).jpg')}}">
                     <div
-                        class="absolute inset-0 bg-black/40 flex flex-col justify-center px-6 text-white">
+                        class="absolute inset-0 flex flex-col justify-center px-6 text-white bg-black/40 dark:text-white">
                         <div class="absolute bottom-6 left-6">
-                            <p class="text-sm mb-1">Late Summer Edition</p>
-                            <h2 class="text-3xl md:text-4xl font-bold mb-2">New
+                            <p class="mb-1 text-sm">Late Summer Edition</p>
+                            <h2 class="mb-2 text-3xl font-bold md:text-4xl">New
                                 Summer Arrivals</h2>
-                            <p class="text-lg mb-4">Get <span
-                                    class="text-orange-400 font-bold">40%
+                            <p class="mb-4 text-lg">Get <span
+                                    class="font-bold text-orange-400">40%
                                     Off</span></p>
                             <button
-                                class="bg-orange-500 text-white py-2 px-4 rounded hover:bg-orange-600 transition">Shop
+                                class="px-4 py-2 text-white transition bg-orange-500 rounded dark:text-white hover:bg-orange-600">Shop
                                 Now</button>
                         </div>
                     </div>
@@ -27,32 +27,32 @@
                 <!-- Skinny Fit Blazer -->
 
 
-                <div class="relative flex flex-col gap-6 h-full">
+                <div class="relative flex flex-col h-full gap-6">
                     <div class="relative flex-1">
                         <img src="{{asset('assets/eimage/crypgo (18).jpg')}}"
-                            class="w-full h-48 object-cover rounded-lg">
+                            class="object-cover w-full h-48 rounded-lg">
                         <div
                             class="absolute inset-0 flex flex-col items-center justify-center">
                             <div
-                                class="bg-black text-white text-sm px-2 py-1 rounded mb-2">30%
+                                class="px-2 py-1 mb-2 text-sm text-white bg-black rounded dark:text-white">30%
                                 Off</div>
                             <div
-                                class="bg-orange-500 text-white px-4 py-2 rounded-lg shadow-lg font-semibold">Skinny
+                                class="px-4 py-2 font-semibold text-white bg-orange-500 rounded-lg shadow-lg dark:text-white">Skinny
                                 Fit Blazer</div>
                         </div>
                     </div>
                     <!-- Family Sweater (Bottom) -->
                     <div
-                        class="relative flex-1 flex items-center justify-center">
+                        class="relative flex items-center justify-center flex-1">
                         <img src="{{asset('assets/eimage/crypgo (20).jpg')}}"
-                            class="w-full h-48 object-cover rounded-lg">
+                            class="object-cover w-full h-48 rounded-lg">
                         <div
                             class="absolute inset-0 flex flex-col items-center justify-center">
                             <div
-                                class="bg-black text-white text-sm px-2 py-1 rounded mb-2">30%
+                                class="px-2 py-1 mb-2 text-sm text-white bg-black rounded dark:text-white">30%
                                 Off</div>
                             <div
-                                class="bg-orange-500 text-white px-4 py-2 rounded-lg shadow-lg font-semibold">Family
+                                class="px-4 py-2 font-semibold text-white bg-orange-500 rounded-lg shadow-lg dark:text-white">Family
                                 Sweater</div>
                         </div>
                     </div>
@@ -62,26 +62,26 @@
             <!-- Featured Products Section -->
             <section>
                 <div class="max-w-[1140px] mx-auto px-4 py-8">
-                    <h2 class="text-2xl font-bold mb-4">Featured Products</h2>
+                    <h2 class="mb-4 text-2xl font-bold dark:text-white">Featured Products</h2>
                     <div
-                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                         <!-- Product Card 1 -->
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden relative group hover:shadow-lg transition">
+                            class="relative overflow-hidden transition bg-white rounded-lg shadow-md dark:text-white group hover:shadow-lg">
                             <div
-                                class="relative w-full aspect-square overflow-hidden">
+                                class="relative w-full overflow-hidden aspect-square">
                                 <img src="{{asset('assets/eimage/crypgo (13).jpg')}}"
                                     alt="Product Image"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90" />
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90" />
                                 <!-- Unique Hover Overlay -->
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Right Side Icons -->
                                 <div
-                                    class="absolute top-3 right-3 flex flex-col space-y-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    class="absolute z-10 flex flex-col space-y-2 transition-opacity duration-300 opacity-0 top-3 right-3 group-hover:opacity-100">
                                     <!-- Love Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-red-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow dark:text-white hover:bg-red-100">
                                         <svg class="w-5 h-5 text-red-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -94,7 +94,7 @@
                                     </button>
                                     <!-- View Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-blue-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow dark:text-white hover:bg-blue-100">
                                         <svg class="w-5 h-5 text-blue-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -109,9 +109,9 @@
                                 </div>
                                 <!-- Add to Cart Button (Right Bottom, show on hover) -->
                                 <div
-                                    class="absolute bottom-3 right-2 flex gap-3 group-hover:opacity-100 opacity-0 transition">
+                                    class="absolute flex gap-3 transition opacity-0 bottom-3 right-2 group-hover:opacity-100">
                                     <a href="{{route('fn.detail')}}"
-                                        class="bg-orange-500 text-white px-2 py-2 rounded shadow hover:bg-orange-600 flex items-center gap-2">
+                                        class="flex items-center gap-2 px-2 py-2 text-white bg-orange-500 rounded shadow dark:text-white hover:bg-orange-600">
                                         <svg class="w-5 h-5" fill="none"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -126,33 +126,33 @@
                                         Add to Cart
                                     </a>
                                     <a href="./detail.html"
-                                        class="bg-blue-600 text-white px-2 py-2 rounded shadow hover:bg-blue-700">
+                                        class="px-2 py-2 text-white bg-blue-600 rounded shadow dark:text-white hover:bg-blue-700">
                                         Quick View
                                     </a>
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h3 class="text-lg font-semibold">Oversized
+                                <h3 class="text-lg font-semibold dark:text-white">Oversized
                                     Shirt Jacket</h3>
-                                <p class="text-red-500">$49.99</p>
+                                <p class="text-red-500 dark:text-white">$49.99</p>
                             </div>
                         </div>
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden relative group hover:shadow-lg transition">
+                            class="relative overflow-hidden transition bg-white rounded-lg shadow-md dark:text-white group hover:shadow-lg">
                             <div
-                                class="relative w-full aspect-square overflow-hidden">
+                                class="relative w-full overflow-hidden aspect-square">
                                 <img src="{{asset('assets/eimage/crypgo (12).jpg')}}"
                                     alt="Product Image"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90" />
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90" />
                                 <!-- Unique Hover Overlay -->
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Right Side Icons -->
                                 <div
-                                    class="absolute top-3 right-3 flex flex-col space-y-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    class="absolute z-10 flex flex-col space-y-2 transition-opacity duration-300 opacity-0 top-3 right-3 group-hover:opacity-100">
                                     <!-- Love Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-red-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow dark:text-white hover:bg-red-100">
                                         <svg class="w-5 h-5 text-red-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -165,7 +165,7 @@
                                     </button>
                                     <!-- View Icon -->
                                     <a href="./detail.html"
-                                        class="bg-white p-2 rounded-full shadow hover:bg-blue-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow dark:text-white hover:bg-blue-100">
                                         <svg class="w-5 h-5 text-blue-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -180,9 +180,9 @@
                                 </div>
                                 <!-- Add to Cart Button (Right Bottom, show on hover) -->
                                 <div
-                                    class="absolute bottom-3 right-2 flex gap-3 group-hover:opacity-100 opacity-0 transition">
+                                    class="absolute flex gap-3 transition opacity-0 bottom-3 right-2 group-hover:opacity-100">
                                     <a href="{{route('fn.detail')}}"
-                                        class="bg-orange-500 text-white px-2 py-2 rounded shadow hover:bg-orange-600 flex items-center gap-2">
+                                        class="flex items-center gap-2 px-2 py-2 text-white bg-orange-500 rounded shadow dark:text-white hover:bg-orange-600">
                                         <svg class="w-5 h-5" fill="none"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -197,7 +197,7 @@
                                         Add to Cart
                                     </a>
                                     <a href="./detail.html"
-                                        class="bg-blue-600 text-white px-2 py-2 rounded shadow hover:bg-blue-700">
+                                        class="px-2 py-2 text-white bg-blue-600 rounded shadow dark:text-white hover:bg-blue-700">
                                         Quick View
                                     </a>
                                 </div>
@@ -209,21 +209,21 @@
                             </div>
                         </div>
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden relative group hover:shadow-lg transition">
+                            class="relative overflow-hidden transition bg-white rounded-lg shadow-md dark:text-white group hover:shadow-lg">
                             <div
-                                class="relative w-full aspect-square overflow-hidden">
+                                class="relative w-full overflow-hidden aspect-square">
                                 <img src="{{asset('assets/eimage/crypgo (11).jpg')}}"
                                     alt="Product Image"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90" />
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90" />
                                 <!-- Unique Hover Overlay -->
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Right Side Icons -->
                                 <div
-                                    class="absolute top-3 right-3 flex flex-col space-y-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    class="absolute z-10 flex flex-col space-y-2 transition-opacity duration-300 opacity-0 top-3 right-3 group-hover:opacity-100">
                                     <!-- Love Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-red-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow dark:text-white hover:bg-red-100">
                                         <svg class="w-5 h-5 text-red-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -236,7 +236,7 @@
                                     </button>
                                     <!-- View Icon -->
                                     <a href="./detail.html"
-                                        class="bg-white p-2 rounded-full shadow hover:bg-blue-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow dark:text-white hover:bg-blue-100">
                                         <svg class="w-5 h-5 text-blue-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -251,9 +251,9 @@
                                 </div>
                                 <!-- Add to Cart Button (Right Bottom, show on hover) -->
                                 <div
-                                    class="absolute bottom-3 right-2 flex gap-3 group-hover:opacity-100 opacity-0 transition">
+                                    class="absolute flex gap-3 transition opacity-0 bottom-3 right-2 group-hover:opacity-100">
                                     <a href="{{route('fn.detail')}}"
-                                        class="bg-orange-500 text-white px-2 py-2 rounded shadow hover:bg-orange-600 flex items-center gap-2">
+                                        class="flex items-center gap-2 px-2 py-2 text-white bg-orange-500 rounded shadow dark:text-white hover:bg-orange-600">
                                         <svg class="w-5 h-5" fill="none"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -268,7 +268,7 @@
                                         Add to Cart
                                     </a>
                                     <a href="./detail.html"
-                                        class="bg-blue-600 text-white px-2 py-2 rounded shadow hover:bg-blue-700">
+                                        class="px-2 py-2 text-white bg-blue-600 rounded shadow dark:text-white hover:bg-blue-700">
                                         Quick View
                                     </a>
                                 </div>
@@ -280,21 +280,21 @@
                             </div>
                         </div>
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden relative group hover:shadow-lg transition">
+                            class="relative overflow-hidden transition bg-white rounded-lg shadow-md dark:text-white group hover:shadow-lg">
                             <div
-                                class="relative w-full aspect-square overflow-hidden">
+                                class="relative w-full overflow-hidden aspect-square">
                                 <img src="{{asset('assets/eimage/crypgo (10).jpg')}}"
                                     alt="Product Image"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90" />
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90" />
                                 <!-- Unique Hover Overlay -->
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Right Side Icons -->
                                 <div
-                                    class="absolute top-3 right-3 flex flex-col space-y-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    class="absolute z-10 flex flex-col space-y-2 transition-opacity duration-300 opacity-0 top-3 right-3 group-hover:opacity-100">
                                     <!-- Love Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-red-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-red-100">
                                         <svg class="w-5 h-5 text-red-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -307,7 +307,7 @@
                                     </button>
                                     <!-- View Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-blue-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-blue-100">
                                         <svg class="w-5 h-5 text-blue-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -322,9 +322,9 @@
                                 </div>
                                 <!-- Add to Cart Button (Right Bottom, show on hover) -->
                                 <div
-                                    class="absolute bottom-3 right-2 flex gap-3 group-hover:opacity-100 opacity-0 transition">
+                                    class="absolute flex gap-3 transition opacity-0 bottom-3 right-2 group-hover:opacity-100">
                                     <a href="{{route('fn.detail')}}"
-                                        class="bg-orange-500 text-white px-2 py-2 rounded shadow hover:bg-orange-600 flex items-center gap-2">
+                                        class="flex items-center gap-2 px-2 py-2 text-white bg-orange-500 rounded shadow dark:text-white hover:bg-orange-600">
                                         <svg class="w-5 h-5" fill="none"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -339,15 +339,15 @@
                                         Add to Cart
                                     </a>
                                     <a href="./detail.html"
-                                        class="bg-blue-600 text-white px-2 py-2 rounded shadow hover:bg-blue-700">
-                                        Quick View
+                                        class="px-2 py-2 text-white bg-blue-600 rounded shadow dark:text-white hover:bg-blue-700">
+                                        Quick View 
                                     </a>
                                 </div>
                             </div>
                             <div class="p-4">
-                                <h3 class="text-lg font-semibold">Super Slim Fit
+                                <h3 class="text-lg font-semibold dark:text-white">Super Slim Fit
                                     Pants</h3>
-                                <p class="text-red-500">$49.99</p>
+                                <p class="text-red-500 dark:text-white">$49.99</p>
                             </div>
                         </div>
                     </div>
@@ -357,26 +357,26 @@
             <!--New Arrivals-->
             <section>
                 <div class="max-w-[1140px] mx-auto px-4 py-8">
-                    <h2 class="text-2xl font-bold mb-4">New Arrivals</h2>
+                    <h2 class="mb-4 text-2xl font-bold dark:text-white">New Arrivals</h2>
                     <div
-                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                         <!-- Product Card 1 -->
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden relative group hover:shadow-lg transition">
+                            class="relative overflow-hidden transition bg-white rounded-lg shadow-md group hover:shadow-lg">
                             <div
-                                class="relative aspect-w-1 aspect-h-1 w-full overflow-hidden ">
+                                class="relative w-full overflow-hidden aspect-w-1 aspect-h-1 ">
                                 <img src="{{asset('assets/eimage/crypgo (12).jpg')}}"
                                     alt="Product Image"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90">
                                 <!-- Unique Hover Overlay -->
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Right Side Icons -->
                                 <div
-                                    class="absolute top-3 right-3 flex flex-col space-y-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    class="absolute z-10 flex flex-col space-y-2 transition-opacity duration-300 opacity-0 top-3 right-3 group-hover:opacity-100">
                                     <!-- Love Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-red-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-red-100">
                                         <svg class="w-5 h-5 text-red-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -389,7 +389,7 @@
                                     </button>
                                     <!-- View Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-blue-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-blue-100">
                                         <svg class="w-5 h-5 text-blue-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -404,10 +404,9 @@
                                 </div>
                                 <!-- Add to Cart Button (Right Bottom, show on hover) -->
                                 <div
-                                    class="absolute bottom-3 right-2 flex gap-3 group-hover:opacity-100 opacity-0 transition">
+                                    class="absolute flex gap-3 transition opacity-0 bottom-3 right-2 group-hover:opacity-100">
                                     <a href="./detail.html"
-                                        class="bg-orange-500 text-white px-2
-                                         py-2 rounded shadow hover:bg-orange-600 flex items-center gap-2">
+                                        class="flex items-center gap-2 px-2 py-2 text-white bg-orange-500 rounded shadow hover:bg-orange-600">
                                         <svg class="w-5 h-5" fill="none"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -423,8 +422,7 @@
                                     </a>
 
                                     <button
-                                        class="bg-blue-600 text-white px-2
-                                         py-2 rounded shadow hover:bg-blue-700">
+                                        class="px-2 py-2 text-white bg-blue-600 rounded shadow hover:bg-blue-700">
                                         Quick View
                                     </button>
                                 </div>
@@ -437,21 +435,21 @@
                             </div>
                         </div>
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden relative group hover:shadow-lg transition">
+                            class="relative overflow-hidden transition bg-white rounded-lg shadow-md group hover:shadow-lg">
                             <div
-                                class="relative aspect-w-1 aspect-h-1 w-full overflow-hidden">
+                                class="relative w-full overflow-hidden aspect-w-1 aspect-h-1">
                                 <img src="{{asset('assets/eimage/crypgo (13).jpg')}}"
                                     alt="Product Image"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90">
                                 <!-- Unique Hover Overlay -->
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Right Side Icons -->
                                 <div
-                                    class="absolute top-3 right-3 flex flex-col space-y-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    class="absolute z-10 flex flex-col space-y-2 transition-opacity duration-300 opacity-0 top-3 right-3 group-hover:opacity-100">
                                     <!-- Love Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-red-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-red-100">
                                         <svg class="w-5 h-5 text-red-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -464,7 +462,7 @@
                                     </button>
                                     <!-- View Icon -->
                                     <a href="./detail.html"
-                                        class="bg-white p-2 rounded-full shadow hover:bg-blue-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-blue-100">
                                         <svg class="w-5 h-5 text-blue-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -479,10 +477,9 @@
                                 </div>
                                 <!-- Add to Cart Button (Right Bottom, show on hover) -->
                                 <div
-                                    class="absolute bottom-3 right-2 flex gap-3 group-hover:opacity-100 opacity-0 transition">
+                                    class="absolute flex gap-3 transition opacity-0 bottom-3 right-2 group-hover:opacity-100">
                                     <button
-                                        class="bg-orange-500 text-white px-2
-                                         py-2 rounded shadow hover:bg-orange-600 flex items-center gap-2">
+                                        class="flex items-center gap-2 px-2 py-2 text-white bg-orange-500 rounded shadow hover:bg-orange-600">
                                         <svg class="w-5 h-5" fill="none"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -498,8 +495,7 @@
                                     </button>
 
                                     <button
-                                        class="bg-blue-600 text-white px-2
-                                         py-2 rounded shadow hover:bg-blue-700">
+                                        class="px-2 py-2 text-white bg-blue-600 rounded shadow hover:bg-blue-700">
                                         Quick View
                                     </button>
                                 </div>
@@ -512,21 +508,21 @@
                             </div>
                         </div>
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden relative group hover:shadow-lg transition">
+                            class="relative overflow-hidden transition bg-white rounded-lg shadow-md group hover:shadow-lg">
                             <div
-                                class="relative aspect-w-1 aspect-h-1 w-full overflow-hidden">
+                                class="relative w-full overflow-hidden aspect-w-1 aspect-h-1">
                                 <img src="{{asset('assets/eimage/crypgo (8).jpg')}}"
                                     alt="Product Image"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90">
                                 <!-- Unique Hover Overlay -->
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Right Side Icons -->
                                 <div
-                                    class="absolute top-3 right-3 flex flex-col space-y-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    class="absolute z-10 flex flex-col space-y-2 transition-opacity duration-300 opacity-0 top-3 right-3 group-hover:opacity-100">
                                     <!-- Love Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-red-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-red-100">
                                         <svg class="w-5 h-5 text-red-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -539,7 +535,7 @@
                                     </button>
                                     <!-- View Icon -->
                                     <a href="./detail.html"
-                                        class="bg-white p-2 rounded-full shadow hover:bg-blue-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-blue-100">
                                         <svg class="w-5 h-5 text-blue-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -554,10 +550,9 @@
                                 </div>
                                 <!-- Add to Cart Button (Right Bottom, show on hover) -->
                                 <div
-                                    class="absolute bottom-3 right-2 flex gap-3 group-hover:opacity-100 opacity-0 transition">
+                                    class="absolute flex gap-3 transition opacity-0 bottom-3 right-2 group-hover:opacity-100">
                                     <button
-                                        class="bg-orange-500 text-white px-2
-                                         py-2 rounded shadow hover:bg-orange-600 flex items-center gap-2">
+                                        class="flex items-center gap-2 px-2 py-2 text-white bg-orange-500 rounded shadow hover:bg-orange-600">
                                         <svg class="w-5 h-5" fill="none"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -573,8 +568,7 @@
                                     </button>
 
                                     <button
-                                        class="bg-blue-600 text-white px-2
-                                         py-2 rounded shadow hover:bg-blue-700">
+                                        class="px-2 py-2 text-white bg-blue-600 rounded shadow hover:bg-blue-700">
                                         Quick View
                                     </button>
                                 </div>
@@ -587,21 +581,21 @@
                             </div>
                         </div>
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden relative group hover:shadow-lg transition">
+                            class="relative overflow-hidden transition bg-white rounded-lg shadow-md group hover:shadow-lg">
                             <div
-                                class="relative aspect-w-1 aspect-h-1 w-full overflow-hidden ">
+                                class="relative w-full overflow-hidden aspect-w-1 aspect-h-1 ">
                                 <img src="{{asset('assets/eimage/crypgo (8).jpg')}}"
                                     alt="Product Image"
-                                    class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90">
+                                    class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110 group-hover:rotate-2 group-hover:brightness-90">
                                 <!-- Unique Hover Overlay -->
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Right Side Icons -->
                                 <div
-                                    class="absolute top-3 right-3 flex flex-col space-y-2 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    class="absolute z-10 flex flex-col space-y-2 transition-opacity duration-300 opacity-0 top-3 right-3 group-hover:opacity-100">
                                     <!-- Love Icon -->
                                     <button
-                                        class="bg-white p-2 rounded-full shadow hover:bg-red-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-red-100">
                                         <svg class="w-5 h-5 text-red-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -614,7 +608,7 @@
                                     </button>
                                     <!-- View Icon -->
                                     <a href="./detail.html"
-                                        class="bg-white p-2 rounded-full shadow hover:bg-blue-100 transition">
+                                        class="p-2 transition bg-white rounded-full shadow hover:bg-blue-100">
                                         <svg class="w-5 h-5 text-blue-500"
                                             fill="none" stroke="currentColor"
                                             stroke-width="2"
@@ -629,10 +623,9 @@
                                 </div>
                                 <!-- Add to Cart Button (Right Bottom, show on hover) -->
                                 <div
-                                    class="absolute bottom-3 right-2 flex gap-3 group-hover:opacity-100 opacity-0 transition">
+                                    class="absolute flex gap-3 transition opacity-0 bottom-3 right-2 group-hover:opacity-100">
                                     <button
-                                        class="bg-orange-500 text-white px-2
-                                         py-2 rounded shadow hover:bg-orange-600 flex items-center gap-2">
+                                        class="flex items-center gap-2 px-2 py-2 text-white bg-orange-500 rounded shadow hover:bg-orange-600">
                                         <svg class="w-5 h-5" fill="none"
                                             stroke="currentColor"
                                             stroke-width="2"
@@ -648,8 +641,7 @@
                                     </button>
 
                                     <button
-                                        class="bg-blue-600 text-white px-2
-                                         py-2 rounded shadow hover:bg-blue-700">
+                                        class="px-2 py-2 text-white bg-blue-600 rounded shadow hover:bg-blue-700">
                                         Quick View
                                     </button>
                                 </div>
@@ -668,22 +660,22 @@
             <!----Special Layout Section-->
             <section>
                 <div class="max-w-[1140px] mx-auto px-4 py-8">
-                    <h2 class="text-2xl font-bold mb-4">Special Layout
+                    <h2 class="mb-4 text-2xl font-bold">Special Layout
                         Section</h2>
                     <div class="flex flex-wrap gap-6">
                         <!-- First Div: 25% width -->
                         <div
                             class="rounded-lg overflow-hidden flex-1 min-w-[220px] max-w-[25%] flex-grow-0 flex-shrink-0">
                             <div
-                                class="relative aspect-square w-full overflow-hidden group">
+                                class="relative w-full overflow-hidden aspect-square group">
                                 <img src="{{asset('assets/eimage/crypgo (7).jpg')}}"
                                     alt="Product 1"
                                     class="object-cover transition-transform duration-300 hover:scale-105" />
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Add to Cart Icon Button (shows on hover) -->
                                 <button
-                                    class="absolute bottom-3 right-3 bg-orange-500 text-white p-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-orange-600 flex items-center justify-center">
+                                    class="absolute flex items-center justify-center p-2 text-white transition-opacity duration-300 bg-orange-500 rounded-full shadow-lg opacity-0 bottom-3 right-3 group-hover:opacity-100 hover:bg-orange-600">
                                     <!-- Cart SVG Icon -->
                                     <svg class="w-5 h-5" fill="none"
                                         stroke="currentColor" stroke-width="2"
@@ -709,22 +701,22 @@
                                 class="relative aspect-[2/1] w-full overflow-hidden flex items-center justify-center">
                                 <img src="{{asset('assets/eimage/crypgo (18).jpg')}}"
                                     alt="Product 2"
-                                    class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" />
+                                    class="object-cover w-full h-full transition-transform duration-300 hover:scale-105" />
                                 <!-- Overlay for content -->
                                 <div
-                                    class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+                                    class="absolute inset-0 flex flex-col items-center justify-center px-4 text-center">
                                     <p
-                                        class="text-white text-lg md:text-xl font-medium mb-2 drop-shadow">Find
+                                        class="mb-2 text-lg font-medium text-white md:text-xl drop-shadow">Find
                                         the best Blazer Collection</p>
                                     <h3
-                                        class="text-4xl md:text-5xl font-bold text-white mb-2 drop-shadow-lg tracking-wider">BLAZER</h3>
+                                        class="mb-2 text-4xl font-bold tracking-wider text-white md:text-5xl drop-shadow-lg">BLAZER</h3>
                                 </div>
                                 <!-- Shop Now link at bottom center -->
                                 <a href="#"
-                                    class="absolute bottom-6 left-1/2 -translate-x-1/2 bg-orange-500 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-orange-600 transition">Shop
+                                    class="absolute px-6 py-2 font-semibold text-white transition -translate-x-1/2 bg-orange-500 rounded-full shadow bottom-6 left-1/2 hover:bg-orange-600">Shop
                                     Now</a>
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-blue-500/60 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-blue-500/60 via-transparent to-transparent hover:opacity-100"></div>
                             </div>
                             <div class="p-4">
                                 <!-- Optionally keep or remove this text block -->
@@ -738,15 +730,15 @@
                         <div
                             class="rounded-lg overflow-hidden flex-1 min-w-[220px] max-w-[25%] flex-grow-0 flex-shrink-0">
                             <div
-                                class="relative aspect-square w-full overflow-hidden group">
+                                class="relative w-full overflow-hidden aspect-square group">
                                 <img src="{{asset('assets/eimage/crypgo (7).jpg')}}"
                                     alt="Product 1"
                                     class="object-cover transition-transform duration-300 hover:scale-105" />
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent group-hover:opacity-100"></div>
                                 <!-- Add to Cart Icon Button (shows on hover) -->
                                 <button
-                                    class="absolute bottom-3 right-3 bg-orange-500 text-white p-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-orange-600 flex items-center justify-center">
+                                    class="absolute flex items-center justify-center p-2 text-white transition-opacity duration-300 bg-orange-500 rounded-full shadow-lg opacity-0 bottom-3 right-3 group-hover:opacity-100 hover:bg-orange-600">
                                     <!-- Cart SVG Icon -->
                                     <svg class="w-5 h-5" fill="none"
                                         stroke="currentColor" stroke-width="2"
@@ -771,7 +763,7 @@
             <!-------in-->
             <section>
                 <div class="max-w-[1140px] mx-auto px-4 py-8">
-                    <h2 class="text-2xl font-bold mb-6">Special Layout
+                    <h2 class="mb-6 text-2xl font-bold">Special Layout
                         Section</h2>
 
                     <div class="flex flex-wrap gap-6">
@@ -780,30 +772,30 @@
                         <div
                             class="flex-1 min-w-[300px] md:min-w-[620px] max-w-full md:max-w-[50%] flex-grow-0 flex-shrink-0 space-y-4">
                             <!-- Image 1 -->
-                            <div class="relative rounded-xl overflow-hidden">
+                            <div class="relative overflow-hidden rounded-xl">
                                 <img src="{{asset('assets/eimage/crypgo (5).jpg')}}"
                                     alt="Accessories"
-                                    class="w-full h-60 object-cover">
+                                    class="object-cover w-full h-60">
                                 <div
-                                    class="absolute inset-0 bg-black/30 flex flex-col justify-between p-4">
+                                    class="absolute inset-0 flex flex-col justify-between p-4 bg-black/30">
                                     <h2
-                                        class="text-white text-xl font-semibold">Accessories</h2>
+                                        class="text-xl font-semibold text-white">Accessories</h2>
                                     <a href="#"
-                                        class="text-white text-sm self-end">Shop
+                                        class="self-end text-sm text-white">Shop
                                         Now &gt;</a>
                                 </div>
                             </div>
                             <!-- Image 2 -->
-                            <div class="relative rounded-xl overflow-hidden">
+                            <div class="relative overflow-hidden rounded-xl">
                                 <img src="{{asset('assets/eimage/image_2.jpg')}}"
                                     alt="Accessories"
-                                    class="w-full h-60 object-cover">
+                                    class="object-cover w-full h-60">
                                 <div
-                                    class="absolute inset-0 bg-black/30 flex flex-col justify-between p-4">
+                                    class="absolute inset-0 flex flex-col justify-between p-4 bg-black/30">
                                     <h2
-                                        class="text-white text-xl font-semibold">Accessories</h2>
+                                        class="text-xl font-semibold text-white">Accessories</h2>
                                     <a href="#"
-                                        class="text-white text-sm self-end">Shop
+                                        class="self-end text-sm text-white">Shop
                                         Now &gt;</a>
                                 </div>
                             </div>
@@ -816,9 +808,9 @@
                                 class="relative h-[400px] w-full overflow-hidden rounded-xl">
                                 <img src="{{asset('assets/eimage/crypgo (9).jpg')}}"
                                     alt="Product 1"
-                                    class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" />
+                                    class="object-cover w-full h-full transition-transform duration-300 hover:scale-105" />
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent hover:opacity-100"></div>
                             </div>
                             <div class="p-4">
                                 <h3 class="text-lg font-semibold">Oversized
@@ -834,9 +826,9 @@
                                 class="relative h-[400px] w-full overflow-hidden rounded-xl">
                                 <img src="{{asset('assets/eimage/crypgo (10).jpg')}}"
                                     alt="Product 2"
-                                    class="w-full h-full object-cover transition-transform duration-300 hover:scale-105" />
+                                    class="object-cover w-full h-full transition-transform duration-300 hover:scale-105" />
                                 <div
-                                    class="absolute inset-0 bg-gradient-to-t from-orange-500/60 via-transparent to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    class="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-t from-orange-500/60 via-transparent to-transparent hover:opacity-100"></div>
                             </div>
                             <div class="p-4">
                                 <h3 class="text-lg font-semibold">Oversized
@@ -850,21 +842,21 @@
                     <!-- View All Button -->
                     <div class="flex justify-center mt-10">
                         <a href="#"
-                            class="bg-orange-500 hover:bg-orange-600 text-white font-medium py-2 px-6 rounded-md transition">View
+                            class="px-6 py-2 font-medium text-white transition bg-orange-500 rounded-md hover:bg-orange-600">View
                             All</a>
                     </div>
                 </div>
             </section>
 
             <!-----online shop section-->
-            <section class="relative bg-cover bg-center bg-no-repeat py-20"
+            <section class="relative py-20 bg-center bg-no-repeat bg-cover"
                 style="background-image: url('assets/eimage/crypgo (20).jpg');">
                 <div class="absolute inset-0 bg-black/60"></div>
                 <div
-                    class="relative z-10 max-w-2xl mx-auto text-center text-white px-4">
+                    class="relative z-10 max-w-2xl px-4 mx-auto text-center text-white">
                     <p class="mb-6 text-lg opacity-80">Lorem ipsum dolor sit
                         ammet</p>
-                    <h2 class="text-3xl md:text-5xl font-bold mb-4">Online Shop
+                    <h2 class="mb-4 text-3xl font-bold md:text-5xl">Online Shop
                         Up To <span class="text-orange-400">50% Off</span>
                         Design</h2>
 
@@ -873,17 +865,17 @@
 
             <section>
                 <div class="max-w-[1140px] mx-auto px-4 py-8">
-                    <div class="text-center mb-8">
+                    <div class="mb-8 text-center">
                         <h1 class="text-2xl font-bold">Our Latest News</h1>
                     </div>
                     <div
-                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                         <!-- News Item 1 -->
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden">
+                            class="overflow-hidden bg-white rounded-lg shadow-md">
                             <a href="#"><img src="{{asset('assets/eimage/image_2.jpg')}}"
                                     alt="News 1"
-                                    class="w-full h-60 object-cover" /></a>
+                                    class="object-cover w-full h-60" /></a>
                             <div class="p-4">
                                 <a href="#"
                                     class="text-lg font-semibold hover:text-underline">7
@@ -895,10 +887,10 @@
                         </div>
                         <!-- News Item 2 -->
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden">
+                            class="overflow-hidden bg-white rounded-lg shadow-md">
                             <a href="#"><img src="{{asset('assets/eimage/crypgo (6).jpg')}}"
                                     alt="News 2"
-                                    class="w-full h-60 object-cover" /></a>
+                                    class="object-cover w-full h-60" /></a>
                             <div class="p-4">
                                 <a href="#"
                                     class="text-lg font-semibold hover:text-underline">7
@@ -910,10 +902,10 @@
                         </div>
                         <!-- News Item 3 -->
                         <div
-                            class="bg-white rounded-lg shadow-md overflow-hidden">
+                            class="overflow-hidden bg-white rounded-lg shadow-md">
                             <a href="#"><img src="{{asset('assets/eimage/crypgo (5).jpg')}}"
                                     alt="News 3"
-                                    class="w-full h-60 object-cover" /></a>
+                                    class="object-cover w-full h-60" /></a>
                             <div class="p-4">
                                 <a href="#"
                                     class="text-lg font-semibold hover:text-underline">7
@@ -930,42 +922,42 @@
             <section class="mb-36">
                 <div class="max-w-[1440px] mx-auto px-4 py-8">
                     <div
-                        class="grid grid-cols-1 md:grid-cols-3 gap-0 bg-gray-200 rounded-lg p-6">
+                        class="grid grid-cols-1 gap-0 p-6 bg-gray-200 rounded-lg md:grid-cols-3">
                         <!-- Card 1 -->
                         <div
-                            class="flex flex-col items-center justify-center text-center px-4">
+                            class="flex flex-col items-center justify-center px-4 text-center">
                             <div class="flex items-center justify-center mb-4">
                                 <img src="{{asset('assets/eimage/crypgo (03).svg')}}"
                                     alt="Image 1"
-                                    class="w-24 h-24 object-contain rounded-lg" />
+                                    class="object-contain w-24 h-24 rounded-lg" />
                             </div>
-                            <h1 class="text-lg font-semibold mb-1">100% Secure
+                            <h1 class="mb-1 text-lg font-semibold">100% Secure
                                 Payments</h1>
                             <p>We offer competitive prices on<br> our 100
                                 million plus product range.</p>
                         </div>
                         <!-- Card 2 -->
                         <div
-                            class="flex flex-col items-center justify-center text-center px-4">
+                            class="flex flex-col items-center justify-center px-4 text-center">
                             <div class="flex items-center justify-center mb-4">
                                 <img src="{{asset('assets/eimage/crypgo (02).svg')}}"
                                     alt="Image 2"
-                                    class="w-24 h-24 object-contain rounded-lg" />
+                                    class="object-contain w-24 h-24 rounded-lg" />
                             </div>
-                            <h1 class="text-lg font-semibold mb-1">World Wide
+                            <h1 class="mb-1 text-lg font-semibold">World Wide
                                 Delivery</h1>
                             <p>We offer competitive prices on<br> our 100
                                 million plus product range.</p>
                         </div>
                         <!-- Card 3 -->
                         <div
-                            class="flex flex-col items-center justify-center text-center px-4">
+                            class="flex flex-col items-center justify-center px-4 text-center">
                             <div class="flex items-center justify-center mb-4">
                                 <img src="{{asset('assets/eimage/crypgo (01).svg')}}"
                                     alt="Image 3"
-                                    class="w-24 h-24 object-contain rounded-lg" />
+                                    class="object-contain w-24 h-24 rounded-lg" />
                             </div>
-                            <h1 class="text-lg font-semibold mb-1">24/7 Help
+                            <h1 class="mb-1 text-lg font-semibold">24/7 Help
                                 Center</h1>
                             <p>We offer competitive prices on<br> our 100
                                 million plus product range.</p>

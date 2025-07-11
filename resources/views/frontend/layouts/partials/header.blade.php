@@ -1,23 +1,23 @@
 
  <!-- Top Support Bar -->
-        <div class="bg-gray-400 text-gray-100">
-            <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center py-2 px-4 text-sm gap-2 md:gap-0">
+        <div class="text-gray-100 bg-gray-400">
+            <div class="flex flex-col gap-2 px-4 py-2 mx-auto text-sm max-w-7xl md:flex-row md:justify-between md:items-center md:gap-0">
                 <!-- Left: Support -->
                 <span class="flex items-center justify-center md:justify-start">
-                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400 inline mr-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18"></svg>
+                    <svg class="inline w-4 h-4 mr-1 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18"></svg>
                         <path d="M18 13.446a3.02 3.02 0 0 0-.946-1.985l-1.4-1.4a3.054 3.054 0 0 0-4.218 0l-.7.7a.983.983 0 0 1-1.39 0l-2.1-2.1a.983.983 0 0 1 0-1.389l.7-.7a2.98 2.98 0 0 0 0-4.217l-1.4-1.4a2.824 2.824 0 0 0-4.218 0c-3.619 3.619-3 8.229 1.752 12.979C6.785 16.639 9.45 18 11.912 18a7.175 7.175 0 0 0 5.139-2.325A2.9 2.9 0 0 0 18 13.446Z" />
                     </svg>
-                    <span class="text-red-400 font-semibold">Support:</span>
+                    <span class="font-semibold text-red-400">Support:</span>
                     <span class="ml-1">(021) 091 932 334</span>
                 </span>
                 <!-- Right: Links and Selects -->
-                <div class="flex flex-wrap items-center justify-center md:justify-end gap-2">
+                <div class="flex flex-wrap items-center justify-center gap-2 md:justify-end">
                     <a href="#" class="hover:underline whitespace-nowrap">Store Location:</a>
                     <a href="#" class="hover:underline whitespace-nowrap">Track your order</a>
                     <div class="flex gap-2">
                         <!-- Country select -->
-                        <div class="bg-white rounded px-2 py-1">
-                            <select class="bg-white text-gray-500 border-none outline-none">
+                        <div class="px-2 py-1 bg-white rounded">
+                            <select class="text-gray-500 bg-white border-none outline-none">
                                 <option>USA ($)</option>
                                 <option>Canada ($)</option>
                                 <option>Australia ($)</option>
@@ -25,8 +25,8 @@
                             </select>
                         </div>
                         <!-- Language select -->
-                        <div class="bg-white rounded px-2 py-1">
-                            <select class="bg-white text-gray-500 border-none outline-none">
+                        <div class="px-2 py-1 bg-white rounded">
+                            <select class="text-gray-500 bg-white border-none outline-none">
                                 <option>English (US)</option>
                                 <option>Français (FR)</option>
                                 <option>Español (ES)</option>
@@ -39,9 +39,9 @@
             </div>
         </div>
         <!----hader-->
-        <header class=" bg-white shadow">
+        <header class="bg-white shadow ">
             <div
-                class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+                class="flex items-center justify-between px-4 py-4 mx-auto max-w-7xl">
                 <!-- Logo -->
                 <div class="flex items-center space-x-2">
                     <a href="{{route('fn.home')}}">
@@ -52,30 +52,30 @@
                 </div>
 
                 <!-- Desktop Menu -->
-                <nav class="hidden md:flex space-x-4">
-                    <ul class="flex space-x-4 items-center">
+                <nav class="hidden space-x-4 md:flex">
+                    <ul class="flex items-center space-x-4">
                         <li>
                             <a href="{{route('fn.home')}}"
-                                class="px-4 py-2 rounded-lg text-gray-700 hover:bg-orange-100 hover:text-orange-600 font-semibold transition">
+                                class="px-4 py-2 font-semibold text-gray-700 transition rounded-lg hover:bg-orange-100 hover:text-orange-600">
                                 Home
                             </a>
                         </li>
                         <li>
                             <a href="#"
-                                class="px-4 py-2 rounded-lg text-gray-700 hover:bg-orange-100 hover:text-orange-600 font-semibold transition">
+                                class="px-4 py-2 font-semibold text-gray-700 transition rounded-lg hover:bg-orange-100 hover:text-orange-600">
                                 Category
                             </a>
                         </li>
                         <li>
                             <a href="{{route('fn.about')}}"
-                                class="px-4 py-2 rounded-lg text-gray-700 hover:bg-orange-100 hover:text-orange-600 font-semibold transition">
+                                class="px-4 py-2 font-semibold text-gray-700 transition rounded-lg hover:bg-orange-100 hover:text-orange-600">
                                 About
                             </a>
                         </li>
                         <!-- Pages Dropdown -->
                         <li class="relative group">
                             <button
-                                class="px-4 py-2 rounded-lg text-gray-700 hover:bg-orange-100 hover:text-orange-600 font-semibold transition flex items-center"
+                                class="flex items-center px-4 py-2 font-semibold text-gray-700 transition rounded-lg hover:bg-orange-100 hover:text-orange-600"
                                 id="pages-dropdown-btn"
                                 type="button"
                             >
@@ -85,7 +85,7 @@
                                 </svg>
                             </button>
                             <!-- Dropdown Menu -->
-                            <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-100 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition z-50">
+                            <div class="absolute left-0 z-50 w-48 mt-2 transition bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto">
                                 <ul class="py-2">
                                     <li>
                                         <a href="{{route('fn.product')}}" class="block px-4 py-2 text-gray-700 hover:bg-orange-100 hover:text-orange-600">Product</a>
@@ -98,7 +98,7 @@
                         </li>
                         <li>
                             <a href="{{route('fn.contact')}}"
-                                class="px-4 py-2 rounded-lg text-gray-700 hover:bg-orange-100 hover:text-orange-600 font-semibold transition">
+                                class="px-4 py-2 font-semibold text-gray-700 transition rounded-lg hover:bg-orange-100 hover:text-orange-600">
                                 Contact
                             </a>
                         </li>
@@ -111,7 +111,7 @@
                     <!-- Search Bar -->
                     <div class="relative hidden md:block">
                         <input type="text" placeholder="Search products..."
-                            class="pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-100 text-sm">
+                            class="py-2 pl-10 pr-4 text-sm bg-gray-100 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">
                         <svg
                             class="w-5 h-5 text-gray-400 absolute left-3 top-2.5"
                             fill="none" stroke="currentColor" stroke-width="2"
@@ -121,9 +121,9 @@
                         </svg>
                     </div>
                     <!-- Account Dropdown -->
-                    <div class="relative group hidden md:inline">
+                    <div class="relative hidden group md:inline">
                         <!-- Account Icon (triggers dropdown) -->
-                        <button class="p-2 rounded-full hover:bg-blue-50 transition flex items-center" id="account-icon-btn">
+                        <button class="flex items-center p-2 transition rounded-full hover:bg-blue-50" id="account-icon-btn">
                             <svg class="w-6 h-6 text-gray-600" fill="none"
                                 stroke="currentColor" stroke-width="2"
                                 viewBox="0 0 24 24">
@@ -135,11 +135,11 @@
                             </svg>
                         </button>
                         <!-- Dropdown Menu -->
-                        <div class="absolute right-0 mt-2 w-72 bg-white rounded-lg shadow-lg border border-gray-100 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition z-50">
+                        <div class="absolute right-0 z-50 mt-2 transition bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 pointer-events-none w-72 group-hover:opacity-100 group-hover:pointer-events-auto">
                             <div class="flex">
                                 <!-- Left: Icon & Options -->
-                                <div class="w-1/3 flex flex-col items-center justify-center py-6 bg-gray-50 rounded-l-lg">
-                                    <div class="bg-blue-100 p-3 rounded-full mb-2">
+                                <div class="flex flex-col items-center justify-center w-1/3 py-6 rounded-l-lg bg-gray-50">
+                                    <div class="p-3 mb-2 bg-blue-100 rounded-full">
                                         <svg class="w-8 h-8 text-blue-500" fill="none"
                                             stroke="currentColor" stroke-width="2"
                                             viewBox="0 0 24 24">
@@ -147,40 +147,40 @@
                                             <path d="M4 20c0-4 4-7 8-7s8 3 8 7" />
                                         </svg>
                                     </div>
-                                    <span class="text-gray-700 font-semibold text-sm">Account</span>
-                                    <div class="mt-4 flex flex-col gap-2">
-                                        <button class="text-blue-600 hover:underline text-xs focus:outline-none" id="show-login">Sign In</button>
-                                        <button class="text-blue-600 hover:underline text-xs focus:outline-none" id="show-register">Register</button>
+                                    <span class="text-sm font-semibold text-gray-700">Account</span>
+                                    <div class="flex flex-col gap-2 mt-4">
+                                        <button class="text-xs text-blue-600 hover:underline focus:outline-none" id="show-login">Sign In</button>
+                                        <button class="text-xs text-blue-600 hover:underline focus:outline-none" id="show-register">Register</button>
                                     </div>
                                 </div>
                                 <!-- Right: Forms -->
                                 <div class="w-2/3 p-4">
                                     <!-- Login Form -->
-                                    <form id="login-form" class="space-y-3 flex flex-col">
-                                        <h3 class="text-lg font-semibold mb-2 self-start">Sign In</h3>
+                                    <form id="login-form" class="flex flex-col space-y-3">
+                                        <h3 class="self-start mb-2 text-lg font-semibold">Sign In</h3>
                                         <div class="flex flex-col space-y-2">
                                             <label class="text-sm font-medium text-gray-700" for="login-email">Email</label>
-                                            <input id="login-email" type="email" placeholder="Enter your email" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" required>
+                                            <input id="login-email" type="email" placeholder="Enter your email" class="w-full px-3 py-2 text-sm border rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required>
                                         </div>
                                         <div class="flex flex-col space-y-2">
                                             <label class="text-sm font-medium text-gray-700" for="login-password">Password</label>
-                                            <input id="login-password" type="password" placeholder="Enter your password" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" required>
+                                            <input id="login-password" type="password" placeholder="Enter your password" class="w-full px-3 py-2 text-sm border rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required>
                                         </div>
-                                        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition mt-2">Login</button>
-                                        <div class="flex justify-between text-xs mt-2">
+                                        <button type="submit" class="w-full py-2 mt-2 text-white transition bg-blue-600 rounded hover:bg-blue-700">Login</button>
+                                        <div class="flex justify-between mt-2 text-xs">
                                             <a href="#" class="text-blue-500 hover:underline">Forgot?</a>
                                             <button type="button" class="text-blue-500 hover:underline" id="to-register">Register</button>
                                         </div>
                                     </form>
                                     <!-- Register Form (hidden by default) -->
-                                    <form id="register-form" class="space-y-3 hidden">
-                                        <h3 class="text-lg font-semibold mb-2">Register</h3>
-                                        <input type="text" placeholder="Full Name" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" required>
-                                        <input type="email" placeholder="Email" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" required>
-                                        <input type="password" placeholder="Password" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" required>
-                                            <input type="password" placeholder="ConfirmPassword" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400 text-sm" required>
-                                        <button type="submit" class="w-full bg-orange-500 text-white py-2 rounded hover:bg-orange-600 transition">Register</button>
-                                        <div class="flex justify-between text-xs mt-2">
+                                    <form id="register-form" class="hidden space-y-3">
+                                        <h3 class="mb-2 text-lg font-semibold">Register</h3>
+                                        <input type="text" placeholder="Full Name" class="w-full px-3 py-2 text-sm border rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                                        <input type="email" placeholder="Email" class="w-full px-3 py-2 text-sm border rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                                        <input type="password" placeholder="Password" class="w-full px-3 py-2 text-sm border rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                                            <input type="password" placeholder="ConfirmPassword" class="w-full px-3 py-2 text-sm border rounded focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+                                        <button type="submit" class="w-full py-2 text-white transition bg-orange-500 rounded hover:bg-orange-600">Register</button>
+                                        <div class="flex justify-between mt-2 text-xs">
                                             <button type="button" class="text-blue-500 hover:underline" id="to-login">Sign In</button>
                                         </div>
                                     </form>
@@ -191,7 +191,7 @@
                    
                     <!-- Cart Icon -->
                     <a href="#" id="cart-button"
-                        class="relative p-2 rounded-full hover:bg-blue-50 transition hidden md:inline">
+                        class="relative hidden p-2 transition rounded-full hover:bg-blue-50 md:inline">
                         <svg class="w-6 h-6 text-gray-600" fill="none"
                             stroke="currentColor" stroke-width="2"
                             viewBox="0 0 24 24">
@@ -209,22 +209,22 @@
 
 
   <!-- Right Icons (User + Cart) -->
-  <div class="flex items-center space-x-4 relative md:hidden">
+  <div class="relative flex items-center space-x-4 md:hidden">
   <!-- User Icon -->
-  <div id="user-icon" class="relative group cursor-pointer">
+  <div id="user-icon" class="relative cursor-pointer group">
     <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
       <circle cx="12" cy="8" r="4" />
       <path d="M4 20c0-4 4-7 8-7s8 3 8 7" />
     </svg>
     <!-- Hover Dropdown -->
-    <div class="absolute right-0 mt-2 w-40 bg-white border rounded shadow-md hidden group-hover:block z-50">
+    <div class="absolute right-0 z-50 hidden w-40 mt-2 bg-white border rounded shadow-md group-hover:block">
       <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Login</a>
       <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">Register</a>
     </div>
   </div>
 
   <!-- Cart Icon -->
-  <div id="cart-icon" class="relative group cursor-pointer">
+  <div id="cart-icon" class="relative cursor-pointer group">
     <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
       <circle cx="9" cy="21" r="1" />
       <circle cx="20" cy="21" r="1" />
@@ -232,7 +232,7 @@
     </svg>
     <span class="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full px-1.5 py-0.5">2</span>
     <!-- Hover Dropdown -->
-    <div class="absolute right-0 mt-2 w-48 bg-white border rounded shadow-md hidden group-hover:block z-50">
+    <div class="absolute right-0 z-50 hidden w-48 mt-2 bg-white border rounded shadow-md group-hover:block">
       <div class="px-4 py-2 text-sm">You have 2 items</div>
       <a href="#" class="block px-4 py-2 text-sm text-center text-blue-600 hover:bg-gray-100">View Cart</a>
     </div>
@@ -248,22 +248,22 @@
       </button>
 
       <!-- Desktop Nav (optional for larger screens) -->
-      <nav class="hidden md:flex space-x-6">
-        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+      <nav class="hidden space-x-6 md:flex">
+        <a href="#" class="font-medium text-gray-700 hover:text-blue-600">Home</a>
+        <a href="#" class="font-medium text-gray-700 hover:text-blue-600">About</a>
+        <a href="#" class="font-medium text-gray-700 hover:text-blue-600">Contact</a>
       </nav>
     </div>
 
     <!-- Mobile Menu Content -->
-    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-4">
+    <div id="mobile-menu" class="hidden px-4 pb-4 space-y-4 md:hidden">
       <!-- Navigation Links -->
       <nav class="space-y-2">
-        <a href="./index.html" class="block text-gray-700 hover:text-orange-600 font-medium">Home</a>
-        <a href="#" class="block text-gray-700 hover:text-orange-600 font-medium">Category</a>
-        <a href="./about.html" class="block text-gray-700 hover:text-orange-600 font-medium">About</a>
-        <a href="./product.html" class="block text-gray-700 hover:text-orange-600 font-medium">Pages</a>
-        <a href="./contact.html" class="block text-gray-700 hover:text-orange-600 font-medium">Contact</a>
+        <a href="./index.html" class="block font-medium text-gray-700 hover:text-orange-600">Home</a>
+        <a href="#" class="block font-medium text-gray-700 hover:text-orange-600">Category</a>
+        <a href="./about.html" class="block font-medium text-gray-700 hover:text-orange-600">About</a>
+        <a href="./product.html" class="block font-medium text-gray-700 hover:text-orange-600">Pages</a>
+        <a href="./contact.html" class="block font-medium text-gray-700 hover:text-orange-600">Contact</a>
       </nav>
     </div>
 
@@ -296,10 +296,10 @@
 <script src="https://unpkg.com/lucide@latest"></script>
 
 <!-- Fixed Dark Mode Toggle Button (Top Right) -->
-<div class="fixed top-4 right-4 z-50" x-data>
+<div class="fixed z-50 top-4 right-4" x-data x-effect="lucide.createIcons()">
     <button
         @click="$store.theme.toggleTheme()"
-        class="p-2 rounded-full bg-white dark:bg-gray-800 shadow hover:bg-yellow-100 dark:hover:bg-yellow-900 transition"
+        class="p-2 transition bg-white rounded-full shadow dark:bg-gray-800 hover:bg-yellow-100 dark:hover:bg-yellow-900"
         title="Toggle Theme"
     >
         <!-- Light mode icon -->
@@ -314,8 +314,7 @@
     </button>
 </div>
 
-
-<!-- Initialize Lucide Icons -->
+<!-- Initialize Lucide Icons (only needed for first load) -->
 <script>
     lucide.createIcons();
 </script>
